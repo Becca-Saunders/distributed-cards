@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #f5f2f0;
-  font-family: Denk One;
+  font-family: "Denk One";
 }
 
 *, *::before, *::after {
@@ -12,6 +12,8 @@ html {
 .columns ol {
   display: flex;
   width: 50%;
+  display: grid;
+  grid-template-columns:
 }
 
 main {
